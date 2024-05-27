@@ -26,6 +26,23 @@ const LandingPage = () => {
             <h1 className='home-banner-heading'>CUE THE COLLECTIONS</h1>
             <button className='home-banner-button'>Shop the collection</button>
         </div>
+        <div className="seller-collection-main-container">
+                <div className="best-sellers-collection-container">
+                    <img className="image-gif" src = "https://static.wixstatic.com/media/84770f_557d998d1bfc4b4e9bd62e76e4d15934~mv2.gif" alt = "starGif" />
+                    <h1 className="best-seller-heading">Arrivals Best Sellers Collection</h1>
+                    <button className="best-seller-button">Shop Now</button>
+                </div>
+                <div className="best-sellers-collection-container none-class">
+                    <img className="image-gif" src = "https://static.wixstatic.com/media/84770f_557d998d1bfc4b4e9bd62e76e4d15934~mv2.gif" alt = "starGif" />
+                    <h1 className="best-seller-heading">Arrivals Best Sellers Collection</h1>
+                    <button className="best-seller-button">Shop Now</button>
+                </div>
+                <div className="best-sellers-collection-container">
+                    <img className="image-gif" src = "https://static.wixstatic.com/media/84770f_a7918f8c5cae4bbfa3bf1f3cdd09f56c~mv2.gif" alt = "starGif" />
+                    <h1 className="best-seller-heading">Arrivals Best Sellers Collection</h1>
+                    <button className="best-seller-button">Shop Now</button>
+                </div>
+        </div>
         <div className='best-seller-container'>
             <h1 className='best-sellers-heading'>BEST SELLERS</h1>
             <hr className='horizontal-line' />
