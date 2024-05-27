@@ -1,0 +1,80 @@
+.plp-container {
+    width: 100%;
+    display: flex;
+   justify-content: center;  /* after added filter it will remove */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plp-image {
+    width: 300px;
+    height: 380px;
+    margin: 30px;
+}
+.plp-product-data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.brand-name {
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #703838;
+    font-weight: bold;
+}
+.product-name {
+    font-family: 'Franklin';
+    font-size: 13px;
+}
+.rating-container {
+    /* width: 80px; */
+    font-family: 'Franklin';
+    font-size: 13px;
+    background-color: #008526;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
+.rating-star-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating-star {
+    font-size: 10px;
+    margin: 0px 5px;
+}
+.price-container {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.price {
+    font-family: 'Franklin';
+    font-size: 15px;
+    font-weight: bold;
+}
+.original-price {
+    font-family: 'Franklin';
+    font-size: 13px;
+    color: grey;
+    text-decoration: line-through;
+}
+.discount-percentage {
+    font-family: 'Franklin';
+    font-size: 13px;
+    color: #703838;
+}
+.offer-price {
+    font-family: 'Franklin';
+    font-size: 13px;
+    color: #008526;
+    font-weight: bold;
+}
